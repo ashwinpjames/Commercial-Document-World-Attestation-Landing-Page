@@ -30,3 +30,12 @@ img.document-illustration{object-fit:contain;padding:0;background:transparent;fi
 html[dir=rtl] .hero-lead-card{justify-self:start}
 @media(max-width:1000px){.hero-lead-card{max-width:440px}}
 @media(max-width:700px){.hero{grid-template-columns:1fr;gap:24px}.hero-lead-card{max-width:none;justify-self:stretch;padding:22px}.hero-form-heading h2{font-size:25px}}
+
+.hero-lead-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:28px;box-shadow:var(--shadow)}
+.hero-form-heading h2{font-size:27px;line-height:1.2;margin:10px 0}.hero-form-heading p{font-size:13px;color:var(--muted);margin:0 0 20px}
+.hero-lead-card form{display:grid;gap:12px}.hero-lead-card .field-label-hidden{display:block;font-size:0}
+.hero-lead-card input:not([type=checkbox]),.hero-lead-card select{width:100%;min-height:47px;padding:12px 14px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text);font:inherit;font-size:13px}
+.hero-lead-card input::placeholder{color:var(--muted);opacity:1}.hero-lead-card .consent{font-size:11px}.hero-lead-card .form-status{font-size:10px}.hero-whatsapp-link{display:flex;align-items:center;gap:8px;margin-top:14px;color:var(--gold);font-size:12px;font-weight:700}
+.chat-header{background:var(--bg)}.chat-avatar{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:var(--gold);color:white}.chat-agent{display:grid;gap:0;flex:1}.chat-agent strong{font-size:13px}.chat-agent small{font-size:10px;color:var(--muted)}.chat-agent small i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#22a06b;margin-inline-end:5px}
+.chat-date{text-align:center;color:var(--muted);font-size:9px;font-weight:800;letter-spacing:1px;margin:0 0 14px}.chat-bubble{max-width:88%;line-height:1.6}.bot-bubble{margin-inline-end:auto;border-bottom-left-radius:3px}.user-bubble{margin-inline-start:auto;background:var(--gold);color:#fff;border-bottom-right-radius:3px}.chat-contact-fields{display:grid;gap:9px;margin:12px 0}.chat-contact-fields input,.chat-contact-fields select{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text);font:inherit;font-size:12px}.chat-send{width:100%;margin:5px 0 10px}.chat-send:disabled{opacity:.45;cursor:not-allowed}
+@media(max-width:700px){.hero-lead-card{padding:21px;margin-top:26px}.hero-form-heading h2{font-size:24px}}
