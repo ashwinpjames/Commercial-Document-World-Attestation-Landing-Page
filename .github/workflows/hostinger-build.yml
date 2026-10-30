@@ -26,20 +26,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Set the production subdomain
-        shell: bash
-        run: |
-          SUBDOMAIN="commercialdocumentattestation"
-          for file in \
-            src/components/SEO.tsx \
-            src/lib/seo.ts \
-            public/.htaccess \
-            public/robots.txt \
-            public/sitemap.xml
-          do
-            sed -i "s/\[SUBDOMAIN\]/${SUBDOMAIN}/g" "$file"
-          done
-
       - name: Build and prerender the website
         run: npm run build
 
