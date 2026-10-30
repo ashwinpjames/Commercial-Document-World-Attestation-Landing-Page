@@ -13,3 +13,20 @@ img.document-illustration{object-fit:contain;padding:0;background:transparent;fi
 .skip-link{position:fixed;top:8px;inset-inline-start:8px;z-index:100;background:var(--gold);color:#101923;padding:10px 14px;border-radius:7px;transform:translateY(-160%);font-weight:800}.skip-link:focus{transform:translateY(0)}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(max-width:700px){.footer{padding-bottom:90px}}
 .chat-steps{padding-inline-start:22px;color:var(--muted);font-size:11px;display:grid;gap:7px}
+
+/* Compact lead form replacing the hero illustration */
+.hero-lead-card{width:100%;max-width:470px;justify-self:end;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:var(--shadow)}
+.hero-form-heading h2{font-size:28px;line-height:1.2;margin:9px 0 6px;letter-spacing:-.7px}
+.hero-form-heading p{font-size:13px;color:var(--muted);margin:0 0 18px}
+.hero-lead-card form{display:grid;gap:12px}
+.hero-lead-card form>label{display:grid;gap:5px;font-size:11px;font-weight:700}
+.hero-lead-card input:not([type=checkbox]),.hero-lead-card select{width:100%;min-height:43px;padding:10px 12px;border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:8px;font:inherit;font-size:12px}
+.hero-lead-card select:invalid{color:var(--muted)}
+.hero-lead-card .consent{display:flex!important;align-items:flex-start;gap:8px!important;font-weight:400!important;color:var(--muted);font-size:10px!important}
+.hero-lead-card .consent input{margin-top:3px}
+.hero-lead-card .button{width:100%;min-height:46px}
+.hero-lead-card .form-status{font-size:10px;color:var(--muted);margin:0}
+.hero-whatsapp-link{display:flex;align-items:center;justify-content:center;gap:7px;margin-top:14px;color:#168b5a;font-size:11px;font-weight:700;text-align:center}
+html[dir=rtl] .hero-lead-card{justify-self:start}
+@media(max-width:1000px){.hero-lead-card{max-width:440px}}
+@media(max-width:700px){.hero{grid-template-columns:1fr;gap:24px}.hero-lead-card{max-width:none;justify-self:stretch;padding:22px}.hero-form-heading h2{font-size:25px}}
