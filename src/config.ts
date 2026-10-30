@@ -1,0 +1,12 @@
+export const BRAND='Reliance World Attestation';
+export const WHATSAPP='971553519191';
+export const LANDLINE='+971 4 354 4244';
+export const EMAIL='info@worldattestation.com';
+export const GOOGLE_PROFILE_URL='https://share.google/SC4a7w54fzsJXNAUE';
+export const MAPS_URL='https://maps.app.goo.gl/TKKkgiiVmzXxR4xK9';
+export const ADDRESS='Office 706, 7th Floor, Al Khaleej Centre, near Sharaf DG Metro Station, Bur Dubai, Dubai, United Arab Emirates';
+export const PARENT_URL='https://worldattestation.com/';
+export const COMMERCIAL_PARENT_URL='https://worldattestation.com/commercial-certificate-attestation-dubai/';
+export const SOCIAL=['https://www.facebook.com/Worldattestation/','https://www.instagram.com/relianceworldattestations/','https://ae.linkedin.com/company/world-attestation'];
+export const GA_ID=import.meta.env.VITE_GA4_ID || '';
+export const GTM_ID=import.meta.env.VITE_GTM_ID || '';

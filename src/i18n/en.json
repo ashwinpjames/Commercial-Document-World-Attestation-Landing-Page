@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "services": "Services",
+    "documents": "Documents",
+    "process": "Process",
+    "reviews": "Reviews",
+    "faq": "FAQs",
+    "contact": "Contact",
+    "language": "العربية",
+    "themeLight": "Switch to light theme",
+    "themeDark": "Switch to dark theme"
+  },
+  "hero": {
+    "eyebrow": "COMMERCIAL DOCUMENT SUPPORT IN THE UAE",
+    "title": "Commercial Document Attestation in Dubai",
+    "subtitle": "Coordinating the attestation and legalisation steps your company documents may need for use in the UAE or abroad. Share your document details and our team can help identify the next step.",
+    "cta": "Get a quote on WhatsApp",
+    "trust": "4.6 ★ on Google · 315 reviews",
+    "pickup": "UAE pick-up and delivery available",
+    "private": "Private document attestation service"
+  },
+  "services": {
+    "title": "Commercial attestation support for businesses",
+    "intro": "The route depends on where a document was issued, the authority involved and the country where it will be used. We help coordinate the relevant steps based on your document and destination.",
+    "foreign": "Documents issued outside the UAE",
+    "foreignText": "For overseas-issued documents, the sequence may involve verification or notarisation in the issuing country, home-country foreign affairs attestation, UAE Embassy attestation, and final UAE MOFA attestation.",
+    "uae": "Documents issued in the UAE",
+    "uaeText": "For UAE-issued documents, the route may involve verification by a UAE court, Chamber of Commerce or relevant free-zone authority, followed by UAE MOFA and the destination country’s embassy where required.",
+    "secondary": "Other attestation and legalisation services",
+    "parent": "Explore our full service range",
+    "tags": [
+      "MOFA",
+      "Embassy attestation",
+      "Educational certificates",
+      "Personal certificates",
+      "PCC",
+      "Apostille",
+      "MOJ",
+      "Legal translation",
+      "Lawyer stamping",
+      "Power of attorney",
+      "Central Bank attestation",
+      "Equivalency"
+    ]
+  },
+  "documents": {
+    "title": "Commercial documents we can discuss",
+    "intro": "Tell us what you have and where it needs to be presented. The exact requirements can vary by issuing authority and destination.",
+    "items": [
+      "Memorandum of Association (MOA)",
+      "Articles of Association",
+      "Company amendments",
+      "Trade licence",
+      "Extract of registry",
+      "Certificate of good standing",
+      "Certificate of incorporation",
+      "Certificate of incumbency",
+      "Certificate of formation",
+      "Membership of formation [VERIFY TERM]",
+      "VAT registration certificate",
+      "Board resolutions",
+      "Commercial power of attorney",
+      "Share certificates",
+      "Commercial invoices",
+      "Bank statements",
+      "Export and import licences",
+      "Letters of credit",
+      "Authority letters",
+      "Non-disclosure agreements",
+      "Incorporation letters"
+    ],
+    "note": "Certificate of Origin and packing lists: availability to be confirmed."
+  },
+  "process": {
+    "title": "How commercial document attestation works",
+    "intro": "The steps below are an overview based on the document’s place of issue. A specialist should confirm the exact route before you proceed.",
+    "foreign": "If your document was issued abroad",
+    "foreignSteps": [
+      "Check the document and arrange verification or notarisation with the relevant authority in its country of issue, where required.",
+      "Complete the home-country Ministry of Foreign Affairs attestation, where applicable.",
+      "Arrange attestation by the UAE Embassy in that country.",
+      "Complete the final UAE MOFA attestation, where required."
+    ],
+    "uae": "If your document was issued in the UAE",
+    "uaeSteps": [
+      "Arrange the required verification or signing through the relevant UAE court, Chamber of Commerce or free-zone authority.",
+      "Submit the document for UAE MOFA attestation, where applicable.",
+      "Arrange attestation by the embassy of the destination country, if required."
+    ],
+    "caveat": "The Ministry of Economy step, document-specific requirements, fees and processing times have not been confirmed. Please request a document-specific assessment. The UAE MOFA service page states that the applicable route is determined from the issuing authority and document type. Treat this client-supplied outline as provisional and verify the live MOFA route before publication or use."
+  },
+  "why": {
+    "title": "A clear point of contact for business documents",
+    "items": [
+      [
+        "Document-specific guidance",
+        "The route is discussed against the document type, country of issue and intended destination."
+      ],
+      [
+        "Updates during handling",
+        "Ask the team how progress updates are provided for your case."
+      ],
+      [
+        "UAE-wide service area",
+        "Dubai, Abu Dhabi and Sharjah. Free pick-up and delivery within the UAE is stated by the business; confirm availability for your location."
+      ],
+      [
+        "Accessible team",
+        "Contact the office by WhatsApp, telephone or email before submitting original documents."
+      ]
+    ]
+  },
+  "quote": {
+    "title": "Request a document-specific quote",
+    "text": "Fees and turnaround depend on the document, issuing country, authorities and destination. Send the details to receive confirmation from the team.",
+    "cta": "Discuss your documents on WhatsApp",
+    "disclaimer": "No fee or standard turnaround is published here because confirmed pricing and timing information has not been supplied."
+  },
+  "countries": {
+    "title": "Countries and embassies",
+    "text": "Country coverage for commercial documents is awaiting confirmation. Contact the team with the issuing country and destination country so they can confirm whether the route can be supported.",
+    "placeholder": "[CLIENT TO CONFIRM TOP 10–15 COUNTRIES]"
+  },
+  "reviews": {
+    "title": "What customers say about the service",
+    "intro": "These Google reviews relate to the services named on each card. They are not represented as reviews from commercial-document clients.",
+    "source": "Google review",
+    "all": "Read all 315 reviews on Google",
+    "leave": "Leave us a review"
+  },
+  "faq": {
+    "title": "Commercial document attestation FAQs",
+    "items": [
+      [
+        "What is commercial document attestation?",
+        "It is the process of obtaining the required verification, attestation or legalisation for a business document so it can be presented to an authority or organisation. The exact route depends on the document and destination."
+      ],
+      [
+        "Which business documents may need attestation?",
+        "Examples include a Memorandum of Association, trade licence, board resolution, certificate of incorporation, commercial power of attorney and other company records. Confirm the requirement with the receiving authority."
+      ],
+      [
+        "What is the process for a document issued abroad?",
+        "It may involve verification in the issuing country, that country’s foreign affairs authority, the UAE Embassy there and final UAE MOFA attestation. The exact sequence must be checked for your case."
+      ],
+      [
+        "What is the process for a UAE-issued document?",
+        "Depending on the document, verification may be required through a UAE court, Chamber of Commerce or free-zone authority, followed by UAE MOFA and the destination country’s embassy where applicable."
+      ],
+      [
+        "How long does commercial attestation take?",
+        "A standard turnaround has not been supplied. Timing depends on the document, country, authorities and any additional requirements. Ask for a case-specific estimate."
+      ],
+      [
+        "Is UAE MOFA attestation always mandatory?",
+        "Not necessarily for every use case. The receiving authority and destination determine which attestations are required. Confirm the current requirement before starting."
+      ],
+      [
+        "Why might a company need to attest its documents?",
+        "A bank, government department, business partner or overseas authority may request authenticated company documents for a particular transaction or application."
+      ],
+      [
+        "What is an apostille?",
+        "An apostille is a form of authentication used between participating countries under the Hague Apostille Convention. Whether it is accepted depends on the countries and receiving authority. Verify the current route officially."
+      ],
+      [
+        "Do you offer document pick-up and delivery?",
+        "The business states that free pick-up and delivery is available within the UAE. Confirm service availability for your location and document before arranging collection."
+      ],
+      [
+        "Which countries do you handle?",
+        "The confirmed country list has not yet been provided. Share the country of issue and destination so the team can check the route."
+      ],
+      [
+        "How can I get a quote?",
+        "Send the document type, country of issue, destination country and any deadline through WhatsApp or the contact form. The team can confirm the applicable steps and quote."
+      ],
+      [
+        "Can I track the progress of my documents?",
+        "Contact the team to confirm what progress updates are available for your specific case."
+      ]
+    ]
+  },
+  "contact": {
+    "title": "Speak with World Attestation",
+    "intro": "Share your document type, country of issue and destination. Do not send sensitive documents until the team confirms a suitable submission method.",
+    "name": "Name",
+    "phone": "Phone number",
+    "email": "Email address",
+    "type": "Document type",
+    "message": "Tell us about your document",
+    "submit": "Send enquiry",
+    "address": "Office address",
+    "hours": "Working hours",
+    "hoursValue": "[WORKING HOURS TO BE CONFIRMED]",
+    "call": "Call the office",
+    "wa": "Chat on WhatsApp",
+    "success": "Thank you. Your enquiry has been prepared. Please use WhatsApp or email if the form does not submit."
+  },
+  "footer": {
+    "disclaimer": "We are a private document attestation/clearing service provider and are not a government entity.",
+    "privacy": "Privacy policy",
+    "terms": "Terms",
+    "review": "Leave us a review"
+  },
+  "chat": {
+    "title": "Document assistant",
+    "start": "Which document do you need attested?",
+    "issued": "Where was the document issued?",
+    "uae": "Issued in the UAE",
+    "abroad": "Issued outside the UAE",
+    "quote": "Get a quote on WhatsApp",
+    "call": "Call us",
+    "form": "Fill the form",
+    "unknown": "A specialist will need to confirm this detail. You can continue on WhatsApp.",
+    "close": "Close chat",
+    "documents": [
+      "Memorandum of Association",
+      "Trade licence",
+      "Board resolution",
+      "Certificate of incorporation",
+      "Other commercial document"
+    ]
+  },
+  "preparation": {
+    "title": "Prepare your commercial document enquiry",
+    "intro": "A few details can help the team understand which attestation route may apply. You do not need to guess the legal requirements before speaking with a specialist.",
+    "paragraphs": [
+      "Start with the country where the document was issued and the country where it will be presented. These details help identify which authorities may be involved. If a bank, government department or business partner requested the document, ask them whether they have a specific format, validity period or wording requirement.",
+      "Identify the exact document name. A Memorandum of Association, a trade licence and a board resolution are different records, and the receiving organisation may ask for one document or several. If the name on the document differs from the name used in your request, explain that difference when you contact the team.",
+      "Keep the original document and any supporting records available. Do not alter, laminate, bind, translate or send an original until the relevant authority or service team confirms what is required. The supplied process summary is a starting point only; the correct requirements must be checked for the issuing authority and destination.",
+      "If you are handling documents for a company, be ready to explain your role and whether you are authorised to submit them. Share only the information needed for an initial enquiry. Avoid sending confidential financial or corporate records over an unsecured channel before the team confirms a suitable submission method."
+    ]
+  },
+  "official": {
+    "title": "Check official UAE guidance",
+    "text": "Attestation requirements can change and depend on the issuing authority, document type and destination. Use official government guidance to check current requirements before you submit original documents.",
+    "mofa": "UAE Ministry of Foreign Affairs attestation service",
+    "economy": "UAE Ministry of Economy eServices"
+  },
+  "ui": {
+    "enquiry": "Send an enquiry",
+    "companyDocuments": "Company documents",
+    "cookie": "This website uses essential storage for preferences. Optional analytics can be enabled after consent.",
+    "essentialOnly": "Essential only",
+    "acceptAll": "Accept all",
+    "consent": "I agree to be contacted about this enquiry.",
+    "formPending": "Your details will be sent to our team through the contact form.",
+    "socials": [
+      "Facebook",
+      "Instagram",
+      "LinkedIn"
+    ],
+    "metrics": [
+      "Bur Dubai office",
+      "Service area",
+      "Bilingual information",
+      "Google rating"
+    ],
+    "footerLabels": {
+      "contact": "Contact",
+      "links": "Links",
+      "follow": "Follow us",
+      "copyright": "All rights reserved.",
+      "private": "Private service provider. Not a government entity."
+    }
+  },
+  "legal": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "notFound": "Page not found",
+    "draft": "This is a draft page. Before publication, the business must add accurate details about data collected, purposes, retention periods, service providers, data-subject rights and contact procedures. This draft is not legal advice.",
+    "collected": "Information collected",
+    "privacyPlaceholder": "[Specify contact form fields, analytics data and cookies before publication.]",
+    "contact": "Contact",
+    "scope": "Service scope",
+    "scopeText": "Attestation requirements depend on competent authorities and the receiving country. Fees, timelines and requirements must be confirmed for each case.",
+    "back": "Return to homepage",
+    "legalDisclaimer": "We are a private document attestation/clearing service provider and are not a government entity."
+  },
+  "seo": {
+    "title": "Commercial Document Attestation Dubai | World Attestation",
+    "description": "Commercial document attestation in Dubai for businesses. Contact World Attestation on WhatsApp to discuss your document requirements and request a quote."
+  }
+}

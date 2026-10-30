@@ -1,0 +1,4 @@
+import {GA_ID,GTM_ID} from '../config';
+declare global {interface Window {dataLayer?:unknown[];gtag?: (...args:unknown[])=>void}}
+export function track(name:string,params:Record<string,unknown>={}){if(window.gtag){window.gtag('event',name,params);return}if(GTM_ID&&window.dataLayer)window.dataLayer.push({event:name,...params})}
+export function installAnalytics(){if(GA_ID){const s=document.createElement('script');s.async=true;s.src=`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer?.push(Array.from(arguments))};window.gtag('js',new Date());window.gtag('config',GA_ID,{send_page_view:true})}if(GTM_ID&&!document.querySelector('[data-wa-gtm]')){window.dataLayer=window.dataLayer||[];const g=document.createElement('script');g.dataset.waGtm='1';g.async=true;g.src=`https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`;document.head.appendChild(g)}}
