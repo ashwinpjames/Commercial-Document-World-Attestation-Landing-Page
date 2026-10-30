@@ -1,0 +1,62 @@
+name: Build Hostinger production package
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Set the production subdomain
+        shell: bash
+        run: |
+          SUBDOMAIN="commercialdocumentattestation"
+          for file in \
+            src/components/SEO.tsx \
+            src/lib/seo.ts \
+            public/.htaccess \
+            public/robots.txt \
+            public/sitemap.xml
+          do
+            sed -i "s/\[SUBDOMAIN\]/${SUBDOMAIN}/g" "$file"
+          done
+
+      - name: Build and prerender the website
+        run: npm run build
+
+      - name: Include the PHP contact endpoint
+        run: |
+          mkdir -p dist/api
+          cp api/contact.php dist/api/contact.php
+
+      - name: Create Hostinger upload ZIP
+        run: |
+          cd dist
+          zip -r ../hostinger-upload.zip .
+
+      - name: Upload production package
+        uses: actions/upload-artifact@v4
+        with:
+          name: hostinger-production-package
+          path: hostinger-upload.zip
+          if-no-files-found: error
+          retention-days: 14
